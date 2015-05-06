@@ -29,6 +29,9 @@ var outputTree = mergeTrees(inputTrees, options);
   tree will contain the version of the file as it exists in the last input
   tree that contains it.
 
+* `description`: This will place a desciption directly on the merged tree.
+  This is helpful for debuging.
+
 ### Example
 
 If this is your `Brocfile.js`:
